@@ -11,6 +11,7 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden !important;
+    overflow-y: hidden !important;
 }
 
 .container {
@@ -141,7 +142,10 @@ body {
 @media screen and (max-width:480px) {
 
     .container {
-        padding: 10px 50px;
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         .cart__content {
             flex-direction: column;
@@ -164,11 +168,11 @@ body {
                 width: 100%;
 
                 h2 {
-                    font-size: 30px;
+                    font-size: 25px;
                 }
 
                 p {
-                    font-size: 20px;
+                    font-size: 15px;
                 }
             }
         }

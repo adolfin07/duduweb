@@ -10,6 +10,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden !important;
+  overflow-y: hidden !important;
 }
 
 .container {
@@ -117,7 +118,10 @@ body {
 }
 @media screen and (max-width: 480px) {
   .container {
-    padding: 10px 50px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .container .cart__content {
     flex-direction: column;
@@ -138,9 +142,9 @@ body {
     width: 100%;
   }
   .container .cart__content .cart-content__right h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .container .cart__content .cart-content__right p {
-    font-size: 20px;
+    font-size: 15px;
   }
 }/*# sourceMappingURL=styles.css.map */
