@@ -11,19 +11,20 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden !important;
-    overflow-y: hidden !important;
 }
 
 .container {
+    position: relative;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     background-color: rgba(0, 0, 0, 0.377);
 
+    overflow: hidden;
     .cart__content {
         position: relative;
         z-index: 10;
@@ -165,7 +166,7 @@ body {
             }
 
             .cart-content__right {
-                width: 80%;
+                width: 87%;
 
                 h2 {
                     font-size: 24px;
